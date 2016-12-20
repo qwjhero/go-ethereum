@@ -18,7 +18,10 @@
 //
 // Keys are stored as encrypted JSON files according to the Web3 Secret Storage specification.
 // See https://github.com/ethereum/wiki/wiki/Web3-Secret-Storage-Definition for more information.
+
 package accounts
+
+//包accounts实现椭圆曲线私钥的加密存储
 
 import (
 	"crypto/ecdsa"
