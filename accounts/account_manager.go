@@ -21,7 +21,7 @@
 
 package accounts
 
-//包accounts实现椭圆曲线私钥的加密存储
+//包accounts实现椭圆曲线私钥的加密存储，秘钥按照web3秘密存储说明以加密JSON文件格式存储
 
 import (
 	"crypto/ecdsa"

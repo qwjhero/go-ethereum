@@ -17,6 +17,8 @@
 // disasm is a pretty-printer for EVM bytecode.
 package main
 
+//disasm是一个对于EVM字节码来说是一个漂亮的打印机
+
 import (
 	"fmt"
 	"io/ioutil"

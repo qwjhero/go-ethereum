@@ -17,6 +17,8 @@
 // bootnode runs a bootstrap node for the Ethereum Discovery Protocol.
 package main
 
+//bootnode运行Ethereum发现协议的引导节点
+
 import (
 	"crypto/ecdsa"
 	"flag"

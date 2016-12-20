@@ -17,6 +17,8 @@
 // evm executes EVM code snippets.
 package main
 
+//evm执行EVM代码片段
+
 import (
 	"fmt"
 	"math/big"
