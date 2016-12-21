@@ -16,6 +16,8 @@
 
 package compiler
 
+//智能合约编译模块
+
 import (
 	"bytes"
 	"encoding/json"

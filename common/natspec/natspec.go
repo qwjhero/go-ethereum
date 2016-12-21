@@ -45,6 +45,7 @@ type NatSpec struct {
 // the implementation is frontend friendly in that it always gives back
 // a notice that is safe to display
 // :FIXME: the second return value is an error, which can be used to fine-tune bahaviour
+////获取一笔交易的natspec通知的主入口点，该实现是前端友好的，因为它总是返回一个安全显示的通知
 func GetNotice(xeth *xeth.XEth, tx string, http *httpclient.HTTPClient) (notice string) {
 	ns, err := New(xeth, tx, http)
 	if err != nil {
