@@ -38,6 +38,7 @@ var (
 
 // BlockValidator is responsible for validating block headers, uncles and
 // processed state.
+// 区块验证模块
 //
 // BlockValidator implements Validator.
 type BlockValidator struct {

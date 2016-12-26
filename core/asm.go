@@ -23,6 +23,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/vm"
 )
+//汇编解析
 
 func Disassemble(script []byte) (asm []string) {
 	pc := new(big.Int)
